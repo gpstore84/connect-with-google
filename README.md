@@ -12,7 +12,6 @@ Google APIs Client Library for PHP
 
 3) Include and use the library in your project or take a look at an example under google-api-php-client/examples/plus. 
 
-
 <?php
 require_once 'google-api-php-client/src/Google_Client.php';
 require_once 'google-api-php-client/src/contrib/Google_PlusService.php';
@@ -54,7 +53,6 @@ if ($client->getAccessToken()) {
   print "<a href='$authUrl'>Connect Me!</a>";
 }
 
-?>
 
 Sources Provided from: https://code.google.com/p/google-api-php-client/
 
